@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Delauney</title>
+  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+  <script src="script.js"></script>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-light navbar-expand-md">
+        <a href="index.html">
+            <h1>
+                 <img class="logo" src="images/logo-domaine.jpg" alt="">
+            </h1>
+        </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarText">
+                <ul class="list-unstyled nav-item active text-center navbar-nav">
+                    <li class="nav-item"><a class="nav-link py-0 px-4 trait" href="index.html">LE DOMAINE</a></li>
+                    <li class="nav-item"><a class="nav-link py-0 px-4 trait" href="# ">LA PHILOSOPHIE</a></li>
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dessus py-0 px-4 trait dropdown-toggle" id="navbarDropdownMenuLink"  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="# ">LES VINS</a>
+                        <div class="dropdown-menu" aria-labelledy="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="">Vin classiques</a>
+                            <a class="dropdown-item" href="vinParcellaires.html">Vin parcellaires</a>
+                            <a class="dropdown-item" href="">Vin fines bulles</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link py-0 px-4 trait" href="# ">LA BOUTIQUE</a></li>
+                    <li class="nav-item"><a class="nav-link py-0 px-4" href="# ">NOUS CONTACTER</a></li>
+                </ul>
+            </div>
+            <div class="d-none d-sm-none d-md-none d-lg-block row pr-3">
+                <img src="images/facebook.png" alt="">
+                <img src="images/insta.png" alt="">
+                <img src="images/twitter.png" alt="">
+            </div>
+        </nav>
+    </header>
+    <main>
+        
+        <section class="vinBlanc row align-items-center justify-content-center mb-5 p-5 m-0">
+            <div class="text-left m-auto col-12 justify-centent-center col-lg-2 col-md-6 p-4">
+                <h2 class="">TOURAINE<br><span>SAUVIGNON BLANC</span></h2>
+                <p>A consommer jeune, sur les poissons et fruit de mer, mais aussi en apéritif</p>
+                <div>
+                    <i class="far fa-file-pdf"></i>
+                    <i class="far fa-file-image"></i>
+                    <i class="far fa-image"></i>
+                </div>
+            </div>
+            <div class="backBlanc col-6 col-lg-5 text-center col-8 col-md-6">
+                <img class="img-fluid" src="images/vins/sauvignon.png">
+            </div>
+            <div class="col-md-7 d-md-none d-sm-none d-none d-lg-block col-lg-5">            
+                    <div class="row align-items-center justify-content-center mb-3">
+                        <div class="col-3 ml-4 p-auto d-flex justify-content-center"><img src="images/vins/picto-france.png"></div>
+                        <div class="col-6 pr-0"><p><span class="gras">Région :</span><br>AOC Touraine<br>Val de Loire</p></div>
+                    </div>
+                    <div class="row align-items-center justify-content-center mb-3">
+                        <div class="col-3 ml-4 p-auto d-flex justify-content-center"><img src="images/vins/picto-cepage.png"></div>
+                        <div class="col-6 pr-0"><p><span class="gras">Cépage :</span><br>100 % Sauvignon Blanc</p></div>
+                    </div>
+                    <div class="row align-items-center justify-content-center mb-3">
+                        <div class="col-3 ml-4 p-auto d-flex justify-content-center"><img src="images/vins/picto-sol.png"></div>
+                        
+                        <div class="col-6 pr-0"><p><span class="gras">Sol :</span><br>Silico-argilo-pierreux ou "perruches"</p></div>
+                    </div>
+                    <div class="row align-items-center justify-content-center mb-3">
+                        <div class="col-3 ml-4 p-auto d-flex justify-content-center"><img class="" src="images/vins/picto-vigne.png"></div>
+                        <div class="col-6 pr-0"><p><span class="gras">Vignoble :</span><br> Parcelles en coteau<br>classées Chenonceaux</p></div>
+                    </div>
+                    <div class="row align-items-center justify-content-center mb-3">
+                        <div class="col-3 ml-4 p-auto d-flex justify-content-center"><img class="" src="images/vins/picto-rendement.png"></div>
+                        <div class="col-6 pr-0"><p><span class="gras">Rendement :</span> 60 h/ha</p></div>
+                    </div>
+                    <div class="row align-items-center justify-content-center mb-3">
+                        <div class="col-3 ml-4 p-auto d-flex justify-content-center"><img class="" src="images/vins/picto-vinif.png"></div>
+                        <div class="col-6 pr-0">
+                            <ul class="pl-3">
+                                <span class="gras">Vinification:</span>
+                                <li>Macératio peliculaire 50%</li>
+                                <li>Pressurage pneumatique</li>
+                                <li>Fermentation alcoolique à 16°C</li>   
+                                <li>Elevage sur les fines avec batonages<br>hebdomadaires pendant 3 mois</li> </ul>
+                        </div>
+                    </div>
+                    <div class="row align-items-center justify-content-center mb-3">
+                        <div class="col-3 ml-4 p-auto d-flex justify-content-center"><img class="" src="images/vins/picto-degustation.png"></div>
+                        <div class="col-6 pr-0">
+                            <p class=""><span class="gras">Dégustation :</span><br>Robe jaune pale, nez puissant dégageant une compléxité d'aromes (fruit éxotique, bourgeons de cassis, pamplemousse, pêche) ainsi que des notes florales. Bien équilibré, long et gras en bouche, il séduit par sa fraicheur et son fruité. A déguster frais (10°C) sur poissons huitres et autres fruit de mer ainsi qu'à l'apéritif.<br>Conservation 2 ans. Apogée au cours de la première année.</p>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        
+        <section class="cabotine row align-items-center justify-content-center mb-5 p-5 m-0">
+            <div class="text-left m-auto col-12 justify-centent-center col-lg-2 col-md-6 p-4">
+                <h2 class="">TOURAINE<br><span>LES CABOTINES</span></h2>
+                <p>A consommer jeune, sur les poissons et fruit de mer, mais aussi en apéritif</p>
+                <div>
+                    <i class="far fa-file-pdf"></i>
+                    <i class="far fa-file-image"></i>
+                    <i class="far fa-image"></i>
+                </div>
+            </div>
+            <div class="backBlanc col-6 col-lg-5 text-center col-8 col-md-6">
+                <img class="img-fluid" src="images/vins/rose.png">
+            </div>
+            <div class="col-md-7 col-lg-5 d-md-none d-sm-none d-none d-lg-block">            
+                    <div class="row align-items-center justify-content-center mb-3">
+                        <div class="col-3 ml-4 p-auto d-flex justify-content-center"><img src="images/vins/picto-france.png"></div>
+                        <div class="col-6 pr-0"><p><span class="gras">Région :</span><br>AOC Touraine<br>Val de Loire</p></div>
+                    </div>
+                    <div class="row align-items-center justify-content-center mb-3">
+                        <div class="col-3 ml-4 p-auto d-flex justify-content-center"><img src="images/vins/picto-cepage.png"></div>
+                        <div class="col-6 pr-0"><p><span class="gras">Cépage :</span><br>100 % Sauvignon Blanc</p></div>
+                    </div>
+                    <div class="row align-items-center justify-content-center mb-3">
+                        <div class="col-3 ml-4 p-auto d-flex justify-content-center"><img src="images/vins/picto-sol.png"></div>
+                        
+                        <div class="col-6 pr-0"><p><span class="gras">Sol :</span><br>Silico-argilo-pierreux ou "perruches"</p></div>
+                    </div>
+                    <div class="row align-items-center justify-content-center mb-3">
+                        <div class="col-3 ml-4 p-auto d-flex justify-content-center"><img class="" src="images/vins/picto-vigne.png"></div>
+                        <div class="col-6 pr-0"><p><span class="gras">Vignoble :</span><br> Parcelles en coteau<br>classées Chenonceaux</p></div>
+                    </div>
+                    <div class="row align-items-center justify-content-center mb-3">
+                        <div class="col-3 ml-4 p-auto d-flex justify-content-center"><img class="" src="images/vins/picto-rendement.png"></div>
+                        <div class="col-6 pr-0"><p><span class="gras">Rendement :</span><br> 60 h/ha</p></div>
+                    </div>
+                    <div class="row align-items-center justify-content-center mb-3">
+                        <div class="col-3 ml-4 p-auto d-flex justify-content-center"><img class="" src="images/vins/picto-vinif.png"></div>
+                        <div class="col-6 pr-0">
+                            <ul class="pl-3">
+                                <span class="gras">Vinification:</span>
+                                <li>Macératio peliculaire 50%</li>
+                                <li>Pressurage pneumatique</li>
+                                <li>Fermentation alcoolique à 16°C</li>   
+                                <li>Elevage sur les fines avec batonages<br>hebdomadaires pendant 3 mois</li> </ul>
+                        </div>
+                    </div>
+                    <div class="row align-items-center justify-content-center mb-3">
+                        <div class="col-3 ml-4 p-auto d-flex justify-content-center"><img class="" src="images/vins/picto-degustation.png"></div>
+                        <div class="col-6 pr-0">
+                            <p class=""><span class="gras">Dégustation :</span><br>Robe jaune pale, nez puissant dégageant une compléxité d'aromes (fruit éxotique, bourgeons de cassis, pamplemousse, pêche) ainsi que des notes florales. Bien équilibré, long et gras en bouche, il séduit par sa fraicheur et son fruité. A déguster frais (10°C) sur poissons huitres et autres fruit de mer ainsi qu'à l'apéritif.<br>Conservation 2 ans. Apogée au cours de la première année.</p>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        
+        <section class="gamay row align-items-center justify-content-center mb-5 p-5 m-0">
+            <div class="text-left m-auto col-12 justify-centent-center col-lg-2 col-md-6 p-4">
+                <h2 class="">TOURAINE<br><span>GAMAY</span></h2>
+                <p>A consommer jeune, sur les poissons et fruit de mer, mais aussi en apéritif</p>
+                <div>
+                    <i class="far fa-file-pdf"></i>
+                    <i class="far fa-file-image"></i>
+                    <i class="far fa-image"></i>
+                </div>
+            </div>
+            <div class="backBlanc col-6 col-lg-5 text-center col-8 col-md-6">
+                <img class="img-fluid" src="images/vins/gamay.png">
+            </div>
+            <div class="col-md-7 d-md-none d-sm-none d-none d-lg-block col-lg-5">            
+                    <div class="row align-items-center justify-content-center mb-3">
+                        <div class="col-3 ml-4 p-auto d-flex justify-content-center"><img src="images/vins/picto-france.png"></div>
+                        <div class="col-6 pr-0"><p><span class="gras">Région :</span><br>AOC Touraine<br>Val de Loire</p></div>
+                    </div>
+                    <div class="row align-items-center justify-content-center mb-3">
+                        <div class="col-3 ml-4 p-auto d-flex justify-content-center"><img src="images/vins/picto-cepage.png"></div>
+                        <div class="col-6 pr-0"><p><span class="gras">Cépage :</span><br>100 % Sauvignon Blanc</p></div>
+                    </div>
+                    <div class="row align-items-center justify-content-center mb-3">
+                        <div class="col-3 ml-4 p-auto d-flex justify-content-center"><img src="images/vins/picto-sol.png"></div>
+                        
+                        <div class="col-6 pr-0"><p><span class="gras">Sol :</span><br>Silico-argilo-pierreux ou "perruches"</p></div>
+                    </div>
+                    <div class="row align-items-center justify-content-center mb-3">
+                        <div class="col-3 ml-4 p-auto d-flex justify-content-center"><img class="" src="images/vins/picto-vigne.png"></div>
+                        <div class="col-6 pr-0"><p><span class="gras">Vignoble :</span><br> Parcelles en coteau<br>classées Chenonceaux</p></div>
+                    </div>
+                    <div class="row align-items-center justify-content-center mb-3">
+                        <div class="col-3 ml-4 p-auto d-flex justify-content-center"><img class="" src="images/vins/picto-rendement.png"></div>
+                        <div class="col-6 pr-0"><p><span class="gras">Rendement :</span><br> 60 h/ha</p></div>
+                    </div>
+                    <div class="row align-items-center justify-content-center mb-3">
+                        <div class="col-3 ml-4 p-auto d-flex justify-content-center"><img class="" src="images/vins/picto-vinif.png"></div>
+                        <div class="col-6 pr-0">
+                            <ul class="pl-3">
+                                <span class="gras">Vinification:</span>
+                                <li>Macératio peliculaire 50%</li>
+                                <li>Pressurage pneumatique</li>
+                                <li>Fermentation alcoolique à 16°C</li>   
+                                <li>Elevage sur les fines avec batonages<br>hebdomadaires pendant 3 mois</li> </ul>
+                        </div>
+                    </div>
+                    <div class="row align-items-center justify-content-center mb-3">
+                        <div class="col-3 ml-4 p-auto d-flex justify-content-center"><img class="" src="images/vins/picto-degustation.png"></div>
+                        <div class="col-6 pr-0">
+                            <p class=""><span class="gras">Dégustation :</span><br>Robe jaune pale, nez puissant dégageant une compléxité d'aromes (fruit éxotique, bourgeons de cassis, pamplemousse, pêche) ainsi que des notes florales. Bien équilibré, long et gras en bouche, il séduit par sa fraicheur et son fruité. A déguster frais (10°C) sur poissons huitres et autres fruit de mer ainsi qu'à l'apéritif.<br>Conservation 2 ans. Apogée au cours de la première année.</p>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        
+        <section class="antique row align-items-center justify-content-center p-5 m-0 mb-5" >
+            <div class="text-left m-auto col-12 justify-centent-center col-lg-2 col-md-6 p-4">
+                <h2 class="">TOURAINE<br><span>L'ANTIQUE</span></h2>
+                <p>A consommer jeune, sur les poissons et fruit de mer, mais aussi en apéritif</p>
+                <div>
+                    <i class="far fa-file-pdf"></i>
+                    <i class="far fa-file-image"></i>
+                    <i class="far fa-image"></i>
+                </div>
+            </div>
+            <div class="backBlanc col-6 col-lg-5 text-center col-8 col-md-6">
+                <img class="img-fluid" src="images/vins/antique.png">
+            </div>
+            <div class="col-md-7 d-md-none d-sm-none d-none d-lg-block col-lg-5">            
+                    <div class="row align-items-center justify-content-center mb-3">
+                        <div class="col-3 ml-4 p-auto d-flex justify-content-center"><img src="images/vins/picto-france.png"></div>
+                        <div class="col-6 pr-0"><p><span class="gras">Région :</span><br>AOC Touraine<br>Val de Loire</p></div>
+                    </div>
+                    <div class="row align-items-center justify-content-center mb-3">
+                        <div class="col-3 ml-4 p-auto d-flex justify-content-center"><img src="images/vins/picto-cepage.png"></div>
+                        <div class="col-6 pr-0"><p><span class="gras">Cépage :</span><br> 100 % Sauvignon Blanc</p></div>
+                    </div>
+                    <div class="row align-items-center justify-content-center mb-3">
+                        <div class="col-3 ml-4 p-auto d-flex justify-content-center"><img src="images/vins/picto-sol.png"></div>
+                        
+                        <div class="col-6 pr-0"><p><span class="gras">Sol :</span><br>Silico-argilo-pierreux ou "perruches"</p></div>
+                    </div>
+                    <div class="row align-items-center justify-content-center mb-3">
+                        <div class="col-3 ml-4 p-auto d-flex justify-content-center"><img class="" src="images/vins/picto-vigne.png"></div>
+                        <div class="col-6 pr-0"><p><span class="gras">Vignoble :</span><br> Parcelles en coteau<br>classées Chenonceaux</p></div>
+                    </div>
+                    <div class="row align-items-center justify-content-center mb-3">
+                        <div class="col-3 ml-4 p-auto d-flex justify-content-center"><img class="" src="images/vins/picto-rendement.png"></div>
+                        <div class="col-6 pr-0"><p><span class="gras">Rendement :</span><br> 60 h/ha</p></div>
+                    </div>
+                    <div class="row align-items-center justify-content-center mb-3">
+                        <div class="col-3 ml-4 p-auto d-flex justify-content-center"><img class="" src="images/vins/picto-vinif.png"></div>
+                        <div class="col-6 pr-0">
+                            <ul class="pl-3">
+                                <span class="gras">Vinification:</span>
+                                <li>Macératio peliculaire 50%</li>
+                                <li>Pressurage pneumatique</li>
+                                <li>Fermentation alcoolique à 16°C</li>   
+                                <li>Elevage sur les fines avec batonages<br>hebdomadaires pendant 3 mois</li> </ul>
+                        </div>
+                    </div>
+                    <div class="row align-items-center justify-content-center mb-3">
+                        <div class="col-3 ml-4 p-auto d-flex justify-content-center"><img class="" src="images/vins/picto-degustation.png"></div>
+                        <div class="col-6 pr-0">
+                        <p class=""><span class="gras">Dégustation :</span><br>Robe jaune pale, nez puissant dégageant une compléxité d'aromes (fruit éxotique, bourgeons de cassis, pamplemousse, pêche) ainsi que des notes florales. Bien équilibré, long et gras en bouche, il séduit par sa fraicheur et son fruité. A déguster frais (10°C) sur poissons huitres et autres fruit de mer ainsi qu'à l'apéritif.<br>Conservation 2 ans. Apogée au cours de la première année.</p>
+                        </div>
+                    </div>
+            </div>
+        </section>
+    </main>
+        
+
+    
+    <footer>
+       
+        <div class="footerVin d-flex justify-content-end pr-3">
+            <p class="citation d-flex align-items-center">«Notre démarche est de cultiver la vigne<br>Le vin n'est jamais si bon que quand on le boit avec un ami...»</p>
+        </div>
+        
+        <div class="beige row justify-content-around align-items-center p-3 m-0">
+            <div class="col-lg-3 p-2 text-center">
+                <img src="images/logo-brossette.jpg" alt="">
+            </div>
+            <div class="col-lg-3 text-center">
+                <p class="text-center m-2">NOS AUTRES VINS</p>
+            </div>
+            <div class="col-lg-3 p-2 text-center">
+                <img class="d-block col-8 m-auto img-fluid" src="images/logo-tydy.jpg" alt="">
+            </div>
+        </div>
+        <div class="rouge row justify-content-around align-items-center p-4 m-0">
+            <div class="col-lg-3 p-2 horaire">
+                <h3 class="text-center m-1">HORAIRE ET OUVERTURE</h3>
+                <p class="text-center">Lundi au vendredi de 9h à 12h et de 14h à 18h.<br>
+                Samedi sur rendez-vous.<br>
+                Fermé les dimanches et jours fériées.</p>
+            </div>
+            <div class="col-lg-3 mr-6 text-center">
+                <img src="images/logo-domaine-footer.jpg" alt="">
+            </div>
+            <div class="p-2 col-lg-3 delauney">
+                <h3 class="text-center m-1">DOMAINE JOEL DELAUNAY</h3>
+                <p class="text-center m-1">48, rue de la Tesnière - 41110 POUILLE<br>
+                Tel : 02 54 71 45 69<br>
+                contact@joeldelauney.com
+                </p>
+            </div>
+        </div>
+        
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+</body>
+</html>
